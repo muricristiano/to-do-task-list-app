@@ -1,0 +1,29 @@
+.createTask {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    width: 46rem;
+    margin-top: -1.8rem;
+    max-width: 90%;
+}
+
+.inputNewTask {
+    flex: 1;
+    color: var(--gray-100);
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--gray-500);
+    border: none;
+}
+
+.buttonNewTask {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--gray-100);
+    padding: 1rem;
+    background-color: var(--blue-dark);
+    border: none;
+    border-radius: 8px;
+}

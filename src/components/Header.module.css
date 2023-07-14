@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    height: 200px;
+    background-color: var(--gray-700);
+}
+
+.checkboxLogo {
+    height: 2rem;
+}
+
+.title {
+    font-size: .875rem;
+    font-weight: bold;
+}
