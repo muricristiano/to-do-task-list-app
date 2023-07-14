@@ -9,7 +9,7 @@ export function Task() {
         className={styles.check} 
       />
       <p className={styles.taskDescription}>Task to complete</p>
-      <Trash/>
+      <Trash className={styles.deleteIcon} size={20}/>
     </div>
   );
 }

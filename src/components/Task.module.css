@@ -16,6 +16,6 @@
     border-radius: 1rem;
 }
 
-.taskDescription {
-
+.deleteIcon {
+    color: var(--gray-300);
 }
