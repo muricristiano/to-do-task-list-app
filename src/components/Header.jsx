@@ -1,12 +1,15 @@
 import styles from './Header.module.css'
-import CheckBoxLogo from '../assets/checkbox-logo.svg'
-import {} from 'phosphor-react'
+import CheckListLogo from '../assets/list-checks.svg'
 
 export function Header(){
   return (
         <header>
-            <img className={styles.checkboxLogo} src={CheckBoxLogo}/>
-            <h1 className={styles.title}> TO DO TASKLIST </h1>
+            <img className={styles.checkListLogo} src={CheckListLogo}/>
+            <h1 className={styles.title}> 
+              <span className={styles.to}>TO</span>
+              <span className={styles.do}>DO</span>
+              <span className={styles.list}>LIST</span>
+            </h1>
         </header>
   )
 }
