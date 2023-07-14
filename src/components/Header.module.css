@@ -7,11 +7,26 @@ header {
     background-color: var(--gray-700);
 }
 
-.checkboxLogo {
-    height: 2rem;
+.checkListLogo {
+    height: 4rem;
 }
 
 .title {
-    font-size: .875rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
     font-weight: bold;
+    color: var(--blue);
+}
+
+.to {
+    color: white;
+}
+
+.do {
+    color: var(--blue)
+}
+
+.list {
+    color: var(--purple-dark)
 }
